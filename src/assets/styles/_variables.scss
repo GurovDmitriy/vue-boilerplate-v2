@@ -1,0 +1,13 @@
+/* stylelint-disable custom-property-pattern */
+/* stylelint-disable scss/dollar-variable-pattern */
+
+/* color sass var */
+$color-black: #000000;
+$color-white: #ffffff;
+
+/* color css var */
+$var-color-black: var(--color-black, $color-black);
+$var-color-white: var(--color-white, $color-white);
+
+/* container */
+$max-width-container: 1440px;
